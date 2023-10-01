@@ -72,3 +72,55 @@ body {
   display: flex;
   gap: 20px;
 }
+
+#card-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f5f7;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 100px;
+  gap: 20px;
+}
+
+.card {
+  padding: 10px;
+  display: flex;
+  border-radius: 40px;
+  background-color: white;
+  justify-content: center;
+  gap: 10px;
+}
+.inner-card {
+  flex: 1;
+  padding: 20px;
+}
+.inner-card button {
+  background-color: white;
+  border-color: #6c7bff;
+  color: #6c7bff;
+  border-width: 1.5px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#see-project {
+  background-color: white;
+  border-color: #6c7bff;
+  color: #6c7bff;
+  border-width: 1.5px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#skills span {
+  padding: 6px;
+  background-color: #ebebff;
+  color: blue;
+  font-size: 15px;
+  border-radius: 10px;
+}
